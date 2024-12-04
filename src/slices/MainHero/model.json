@@ -1,0 +1,93 @@
+{
+  "id": "main_hero",
+  "type": "SharedSlice",
+  "name": "MainHero",
+  "description": "MainHero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          }
+        },
+        "timestamp": {
+          "type": "Date",
+          "config": {
+            "label": "Timestamp",
+            "placeholder": ""
+          }
+        },
+        "content1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "content2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "video1": {
+          "type": "Embed",
+          "config": {
+            "label": "video1",
+            "placeholder": ""
+          }
+        },
+        "content3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "video2": {
+          "type": "Embed",
+          "config": {
+            "label": "video2",
+            "placeholder": ""
+          }
+        },
+        "content4": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content4",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

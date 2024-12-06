@@ -72,11 +72,11 @@ export type HomepageDocument<Lang extends string = string> =
 export type AllDocumentTypes = HomepageDocument;
 
 /**
- * Primary content in *MainHero → Default → Primary*
+ * Primary content in *MainContent → Default → Primary*
  */
 export interface MainHeroSliceDefaultPrimary {
   /**
-   * Heading field in *MainHero → Default → Primary*
+   * Heading field in *MainContent → Default → Primary*
    *
    * - **Field Type**: Title
    * - **Placeholder**: *None*
@@ -86,7 +86,7 @@ export interface MainHeroSliceDefaultPrimary {
   heading: prismic.TitleField;
 
   /**
-   * Timestamp field in *MainHero → Default → Primary*
+   * Timestamp field in *MainContent → Default → Primary*
    *
    * - **Field Type**: Date
    * - **Placeholder**: *None*
@@ -96,7 +96,7 @@ export interface MainHeroSliceDefaultPrimary {
   timestamp: prismic.DateField;
 
   /**
-   * Content1 field in *MainHero → Default → Primary*
+   * Content1 field in *MainContent → Default → Primary*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: *None*
@@ -104,70 +104,10 @@ export interface MainHeroSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
   content1: prismic.RichTextField;
-
-  /**
-   * Image field in *MainHero → Default → Primary*
-   *
-   * - **Field Type**: Image
-   * - **Placeholder**: *None*
-   * - **API ID Path**: main_hero.default.primary.image
-   * - **Documentation**: https://prismic.io/docs/field#image
-   */
-  image: prismic.ImageField<never>;
-
-  /**
-   * Content2 field in *MainHero → Default → Primary*
-   *
-   * - **Field Type**: Rich Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: main_hero.default.primary.content2
-   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
-   */
-  content2: prismic.RichTextField;
-
-  /**
-   * video1 field in *MainHero → Default → Primary*
-   *
-   * - **Field Type**: Embed
-   * - **Placeholder**: *None*
-   * - **API ID Path**: main_hero.default.primary.video1
-   * - **Documentation**: https://prismic.io/docs/field#embed
-   */
-  video1: prismic.EmbedField;
-
-  /**
-   * Content3 field in *MainHero → Default → Primary*
-   *
-   * - **Field Type**: Rich Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: main_hero.default.primary.content3
-   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
-   */
-  content3: prismic.RichTextField;
-
-  /**
-   * video2 field in *MainHero → Default → Primary*
-   *
-   * - **Field Type**: Embed
-   * - **Placeholder**: *None*
-   * - **API ID Path**: main_hero.default.primary.video2
-   * - **Documentation**: https://prismic.io/docs/field#embed
-   */
-  video2: prismic.EmbedField;
-
-  /**
-   * Content4 field in *MainHero → Default → Primary*
-   *
-   * - **Field Type**: Rich Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: main_hero.default.primary.content4
-   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
-   */
-  content4: prismic.RichTextField;
 }
 
 /**
- * Default variation for MainHero Slice
+ * Default variation for MainContent Slice
  *
  * - **API ID**: `default`
  * - **Description**: Default
@@ -180,12 +120,12 @@ export type MainHeroSliceDefault = prismic.SharedSliceVariation<
 >;
 
 /**
- * Slice variation for *MainHero*
+ * Slice variation for *MainContent*
  */
 type MainHeroSliceVariation = MainHeroSliceDefault;
 
 /**
- * MainHero Shared Slice
+ * MainContent Shared Slice
  *
  * - **API ID**: `main_hero`
  * - **Description**: MainHero

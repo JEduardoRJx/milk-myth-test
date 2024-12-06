@@ -1,0 +1,44 @@
+{
+  "id": "main_hero",
+  "type": "SharedSlice",
+  "name": "MainContent",
+  "description": "MainHero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          }
+        },
+        "timestamp": {
+          "type": "Date",
+          "config": {
+            "label": "Timestamp",
+            "placeholder": ""
+          }
+        },
+        "content1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Content1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

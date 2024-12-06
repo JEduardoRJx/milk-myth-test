@@ -1,0 +1,40 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Science Debunks a Decades-Old Myth About Drinking Milk",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"timestamp": {
+				"__TYPE__": "FieldContent",
+				"type": "Date",
+				"value": "2024-12-24"
+			},
+			"content1": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Americans born in the ’90s likely remember the Got milk? campaign, which was one of the most successful ad campaigns in history. The rhetorical question came in slim, white sans serif text, all lowercase, on a black background. Sometimes it completed a portrait of a smiling child or adult with a white mustache coating their upper lip like an Einstein-Groucho Marx hybrid. The ad campaign was aimed at increasing milk consumption, and it was so effective that it became a cultural phenomenon.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
